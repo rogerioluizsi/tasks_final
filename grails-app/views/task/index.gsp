@@ -7,7 +7,6 @@
 	<g:set var="entityName" value="${message(code: 'task.label', default: 'Task')}" />
 	<title><g:message code="default.list.label" args="[entityName]" /></title>
 	<asset:javascript src="tasks-controller.js"/>
-	<asset:javascript src="tasks-h2.js"/>
 </head>
 <body>
 	<header>
